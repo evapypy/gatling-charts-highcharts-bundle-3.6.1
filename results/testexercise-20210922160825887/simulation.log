@@ -1,0 +1,17 @@
+RUN	computerdatabase.advanced.testExercise	testexercise	1632326905887	 	3.6.1
+USER	Admins	START	1632326906501
+REQUEST		New pc window	1632326906522	1632326906744	OK	 
+REQUEST		Create new pc	1632326907767	1632326907877	OK	 
+REQUEST		Create new pc Redirect 1	1632326907886	1632326907995	OK	 
+REQUEST		New pc window	1632326907996	1632326908105	OK	 
+REQUEST		Create new pc	1632326909115	1632326909223	OK	 
+REQUEST		Create new pc Redirect 1	1632326909224	1632326909334	OK	 
+REQUEST		Homepage	1632326909334	1632326909443	OK	 
+REQUEST		Homepage Redirect 1	1632326909443	1632326909553	OK	 
+REQUEST		Search	1632326910565	1632326910675	KO	css((a:contains('pc1'),Some(href))).find.exists, found nothing
+ERROR	Select: Failed to build request: No attribute named 'computerURL' is defined 	1632326911729
+REQUEST		Homepage	1632326912740	1632326912848	OK	 
+REQUEST		Homepage Redirect 1	1632326912848	1632326912958	OK	 
+REQUEST		Search	1632326913966	1632326914075	KO	css((a:contains('pc2'),Some(href))).find.exists, found nothing
+ERROR	Select: Failed to build request: No attribute named 'computerURL' is defined 	1632326915078
+USER	Admins	END	1632326916090

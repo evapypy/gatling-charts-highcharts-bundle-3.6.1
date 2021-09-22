@@ -1,0 +1,7 @@
+RUN	computerdatabase.advanced.testExercise	testexercise	1632317538484	 	3.6.1
+USER	Admins	START	1632317538984
+REQUEST		Form	1632317539000	1632317539236	OK	 
+ERROR	Post: Failed to build request: No attribute named 'name' is defined 	1632317540256
+REQUEST		Form	1632317540268	1632317540377	OK	 
+ERROR	Post: Failed to build request: No attribute named 'name' is defined 	1632317541379
+USER	Admins	END	1632317541381

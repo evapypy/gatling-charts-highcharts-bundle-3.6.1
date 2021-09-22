@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.advanced.homeworkExercise",
+  "simulationId": "homeworkexercise",
+  "start": 1632329145220,
+  "description": "",
+  "scenarios": ["Admins"],
+  "assertions": [
+
+  ]
+}
